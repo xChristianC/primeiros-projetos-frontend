@@ -1,0 +1,32 @@
+.titulo {
+    font-family: cursive;
+    font-size: 60px;
+    color: chartreuse;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: azure;
+    font-size: 40px;
+    
+}
+
+.btt{
+    background-color: transparent
+    width: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+    
+}
+.caixa{
+    border-radius: 20px;
+    border-color: chartreuse;
+    background-color: black;
+    width: 200px;
+    height: 25px;
+    color: aqua;
+    font-family: monospace;
+    font-style: bold;
+    font-size: 25px;
+}

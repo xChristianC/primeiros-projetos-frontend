@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js"></script>
+    <title>Fundação Bradesco</title>
+</head>
+<body>
+    <!-- Objetivo: Calcular o salário liquido de um funcionario
+    Calcular as seguintes informações
+        - Quantidade de horas trabalhadas
+        - Valor da hora
+        - Percentual de desconto do INSS
+        - Informar classe salarial
+         -->
+ <div>
+    <h1>Aninhamento de Condições - Salario</h1>
+ </div> 
+ <div>
+    <form name="FormSal" action="" method="post">  
+
+        Quantidade de horas trabalhadas (135 a 180)- <input class="caixa1" type="number" name="h_trb" ><p></p>
+        Valor da hora trabalhada (25 a 50)- R$ <input class="caixa2" type="number" name="v_htrb" ><p></p>
+        Percentual de desconto INSS (5 a 15) - <input class="caixa3" type="number" name="d_inss" ><p></p>
+
+        <input class="btt1" type="button" name="btn_calc" value="Calcular" onclick="verif()"  />
+        <input class="btt2" type="reset" name="btn_zerar" value="Zerar" />
+        <div class="container1">
+         <h1 class="h1sdd" ><b>Demonstrativo para Cálculo do Salário Líquido</b></h1>
+            <br>
+         Horas Trabalhadas: <input class="caixa4" type="number text" name="horatrab" size="15" maxlength="15" /><p></p>
+
+         Valor da Hora Trabalhada: <input class="caixa5" type="number text" name="valorhora" size="15" maxlength="15" /><p></p>  
+
+         Percentual de Desconto INSS: <input class="caixa6" type="number text" name="pdescont" size="15" maxlength="15" />
+         <br>
+         <h2 class="break">================= <input class="bmsg" type="number text" name="msg" />=================</h2>
+         <input class="msg2" type="number text" name="msg2" /><p></p> 
+         <br>
+         Salário Bruto <input class="caixa7" type="number text" name="sbrut" size="15" maxlength="15" /><p></p>
+
+         Total de Descontos <input class="caixa8" type="number text" name="totd" size="15" maxlength="6" /> <p></p>
+
+         Salário Liquído <input class="caixa9" type="number text" name="sliquid" size="15" maxlength="15" />
+         </div>
+    </form>
+ </div>  
+  <!--
+
+ <div>
+    <br>
+    <h2>Salário Bruto - R$</h2>
+    <br>
+    <h2>Total de Descontos - </h2>
+    <br>
+    <h2>Salário Liquído - R$</h2>
+ </div>
+ -->
+</body>
+</html>

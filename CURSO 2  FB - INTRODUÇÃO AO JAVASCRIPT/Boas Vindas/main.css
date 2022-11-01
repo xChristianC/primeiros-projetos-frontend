@@ -1,0 +1,17 @@
+.black_theme{
+    font-family: fantasy;
+    font-size: 35px;
+    color: chartreuse;
+}
+.titulo {
+    font-family: cursive;
+    font-size: 60px;
+    color: chartreuse;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: azure;
+    font-size: 40px;
+    
+}
